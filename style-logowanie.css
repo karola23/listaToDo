@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color: orange;
+}
+.flex-container__wrapper {
+  width: 1000px;
+  height: 1000px;
+}
+.flex-title__wrapper {
+  width: 200px;
+  height: 100px;
+  padding-left: 70%;
+}
+.flex-label__wrapper {
+  width: 250px;
+  height: 65px;
+  padding-left: 70%;
+}
+.flex-lower__wrapper {
+  width: 100px;
+  height: 80px;
+  padding-left: 70%;
+}
+.flex-button__wrapper {
+  width: 250px;
+  height: 40px;
+  padding-left: 75%;
+}
+.flex-or__wrapper {
+  width: 250px;
+  height: 30px;
+  padding-left: 75%;
+}
+.flex-create__wrapper {
+  width: 250px;
+  height: 80px;
+  padding-left: 70%;
+}

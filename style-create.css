@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: orange;
+}
+.flex-container__wrapper {
+  width: 1000px;
+  height: 1000px;
+  padding: 70%;
+}
+.flex-title__wrapper {
+  width: 250px;
+  height: 250px;
+  padding-left: 71%;
+}
+.flex-label__wrapper {
+  width: 230px;
+  height: 145px;
+  padding-left: 70%;
+}
+.flex-remember__wrapper {
+  width: 300px;
+  height: 300px;
+  padding-left: 66%;
+}
+.flex-button__wrapper {
+  width: 290px;
+  height: 300px;
+  padding-left: 76%;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <head>
+    <title>Todo App</title>
+    <meta charset="utf-8">
+	<title>portfolio programisty</title>
+	<meta name="description" content="mój pierwszy projekt">
+    <meta name="author" content="Karolina Raźniak"/>
+    <meta name="keywords" content="Java script, początki, programowanie"/>
+    <link rel="stylesheet" type="text/css" media="screen" charset="utf-8" href="style.css">    
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">TASK</label><input id="new-task" type="text"><button>Add</button>
+      </p>
+      
+      <h3>Todo</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Pay Internet</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li class="editMode"><input type="checkbox"><label>Get a job</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        
+      </ul>
+      
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Cook diner</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html> 
